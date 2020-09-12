@@ -17,6 +17,7 @@ footer {
   text-align: center;
   font-family: sans-serif;
   font-size: 12px;
+  margin: 25px 50px;
 }
 
 /** Styling for the main body of the webpage**/
@@ -24,6 +25,7 @@ article, main {
   text-align: center;
   font-family: sans-serif;
   font-size: 16px;
+  margin: 25px 50px;
 }
 
 /** styling the lists to be centered and inline **/
