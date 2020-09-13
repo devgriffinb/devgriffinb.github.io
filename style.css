@@ -34,3 +34,9 @@ ul, ol {
   text-align: left;
 }
 
+/** Styling the links **/
+a:link {color: #0f0640;}
+a:visited {color: #810d0d;}
+a:hover {color: #ededf5;}
+a:active {color: #6989aa;}
+
