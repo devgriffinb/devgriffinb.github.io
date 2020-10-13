@@ -1,23 +1,24 @@
 /** Styling for the header **/
 header {
-  height: 200px;
+  height: 220px;
   background: linear-gradient( rgba(247, 0, 0, 0.521), rgba(0, 0, 0, 0.2));
-  background-size: cover;
   padding: 30px 20px;
   border-radius: 20px;
   margin-bottom: 50px;
 }
 
-header h1{
+.logo {
+  font-family: serif;
   font-size: 62px;
-  font-family: sans-serif;
-  text-align: center;
-  color: #273746;
+  color: #fff;
+  margin: 15px;
+  padding: 20px 40px 0 0;
 }
 
 header nav{
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 header nav ul{
@@ -26,7 +27,7 @@ header nav ul{
   list-style: none;
 }
 header nav ul li a{
-  color: #273746;
+  color: #fff;
   text-decoration: none;
   margin: 0px 25px 0px 0px;
 }
@@ -39,7 +40,7 @@ header nav ul li a{
     padding: 0px 30px;
     justify-content: space-between;
   }
-  header h1{
+  .logo {
     margin: 40px 0px;
     padding: 0px 0px 0px 40px;
   }
@@ -60,11 +61,21 @@ footer {
 }
 
 /** Styling for the main body of the webpage**/
-article, main {
+main {
   text-align: center;
   font-family: sans-serif;
   font-size: 16px;
   margin: 25px 30px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
 }
 
 /** styling the lists to be centered and inline **/

@@ -11,7 +11,7 @@
     <!-- Top of the Webpage -->
 
     <header>
-      <h1>Griffin Braid</h1>
+      <div class="logo">Griffin Braid</div>
       <nav>
           <ul id="menu">
             <li><a href="#me">Meet Griffin</a></li>
@@ -21,21 +21,32 @@
           </ul>
       </nav>
     </header>
+  
   <main>
     <!-- A quick section about some important info about me -->
-        <h2>Meet Griffin!</h2>
-        <section id="me"></section>
-        <h2>Software Developer</h2>
-        <img src="BMO Cboy.jpg" alt="Cowboy BMO" class="center" width=200px height=100px>
-        <p>I am a 23 year old student of Thinkful's Engineering Immersion Program! I previously graduated from the University of Georgia with a BA in Political Science. I live in Atlanta, Georgia.</p>
-  </main>
+    <section>
+      <div class="group">
+        <div class="item">
+          <section id="me"></section>
+          <h2>Meet Griffin</h2>
+          <h2>Software Developer</h2>
+        </div>
+        <div class="item">
+          <img src="BMO Cboy.jpg" alt="Cowboy BMO" class="center">
+          <p>I am a 23 year old student of Thinkful's Engineering Immersion Program! I previously graduated from the University of Georgia with a BA in Political Science.</p>
+          <p>I am currently living in Atlanta, Georgia.</p>
+        </div>
+      </div>
+    </section>
 
-  <article>
     <hr>
 
     <!-- A more full about section  -->
-        <h2>About Me</h2> 
-        <section id="about"></section> 
+    <section>
+      <section id="about"></section>
+      <h2>About Me</h2> 
+      <div class="group">
+        <div class="item"> 
           <p>Although I'm just now starting my formal education in software engineering, I have been learning how to code for the past two years. I'm excited to continue to learn through Thinkful's Engineering Immersion program and meet/collaborate with others who share my passion for coding! My end goal is to become a game designer but am currently just enjoying developing and expanding my skills as a developer.</p>
           <p>As an aspiring game designer, some of my favorite games from the past year have been:</p>
           <ul>
@@ -44,35 +55,56 @@
             <li>Terraria</li>
             <li>Enter the Gungeon</li>
           </ul>
+        </div>
+      </div>
+    </section>
+        
     <hr>
     <!-- Placeholder for any future projects-->
+    <section>
+      <section id="projects"></section>
         <h2>Projects</h2>
-        <section id="projects"></section>
-          <img src="shrug.jpg" alt="Shrug" class="center">
-          <h4>Project #0</h4>
-          <p>I don't have any projects prepared to display yet, but don't fret! This section will be full soon! Check back later!</p>
-          <a href="">Project Link</a>
+        <div class="group">
+          <div class="item">
+            <img src="shrug.jpg" alt="Shrug" class="center">
+          </div>
+          <div class="item">
+            <h4>Project #0</h4>
+            <p>I don't have any projects prepared to display yet, but don't fret! This section will be full soon! Check back later!</p>
+            <a href="">Project Link</a>
+          </div>
+        </div>
+      </section>
 
     <hr>
 
     <!-- Links to contact me at my linkedin and github-->
-        <h2>Contact Griffin</h2>
+      <section>
         <section id="contact"></section>
-          <p>Email: griffinbraid@gmail.com</p>
-          <a href="https://www.linkedin.com/in/griffin-braid-006b22ba/">Linkedin Page</a>
-          <p></p>
-          <a href="https://github.com/devgriffinb">Github Page</a>
-          <form action="https://formspree.io/f/xvovkknk" method="POST">
-            <label for="sender">Name: </label>
-            <input id="sender" type="text" name="name" placeholder="Your Name Here">
-            <label for="email">Email Address: </label>
-            <input id="email" type="email" name="_replyto" placeholder="Your Email Here">
-            <label for="message">Message: </label>
-            <input id="message" type="text" name="message" placeholder="Your Message Here">
+        <h2>Contact Griffin</h2>
+        <dev class="group">
+          <dev class="item">
+            <p>Email: griffinbraid@gmail.com</p>
+            <a href="https://www.linkedin.com/in/griffin-braid-006b22ba/">Linkedin Page</a>
             <p></p>
-            <input type="submit" value="Send">
-          </form>
-  </article>
+            <a href="https://github.com/devgriffinb">Github Page</a>
+          </dev>
+          <dev class ="item">
+            <form action="https://formspree.io/f/xvovkknk" method="POST">
+              <label for="sender">Name: </label>
+              <input id="sender" type="text" name="name" placeholder="Your Name Here">
+              <label for="email">Email Address: </label>
+              <input id="email" type="email" name="_replyto" placeholder="Your Email Here">
+              <label for="message">Message: </label>
+              <input id="message" type="text" name="message" placeholder="Your Message Here">
+              <p></p>
+              <input type="submit" value="Send">
+            </form>
+          </dev>
+        </dev>
+      </section>
+
+</main>
 
   <hr>
 
