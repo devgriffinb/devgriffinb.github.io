@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Griffin Braid : Software Developer</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -12,45 +12,66 @@
 
     <header>
       <h1>Griffin Braid</h1>
-      <hr>
+      <nav>
+          <ul id="menu">
+            <li><a href="#me">Meet Griffin</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
     </header>
   <main>
-    <h2>Software Developer</h2>
-
     <!-- A quick section about some important info about me -->
-    
-    <h2>Meet Griffin!</h2>
-    <img src="BMO Cboy.jpg" alt="Cowboy BMO" class="center">
-    <ul>
-      <li>I am a 23 year old student of Thinkful's Engineering Immersion Program!</li>
-      <li>I live in Atlanta, Georgia.</li>
-    </ul>
+        <h2>Meet Griffin!</h2>
+        <section id="me"></section>
+        <h2>Software Developer</h2>
+        <img src="BMO Cboy.jpg" alt="Cowboy BMO" class="center" width=200px height=100px>
+        <p>I am a 23 year old student of Thinkful's Engineering Immersion Program! I previously graduated from the University of Georgia with a BA in Political Science. I live in Atlanta, Georgia.</p>
   </main>
 
   <article>
     <hr>
 
     <!-- A more full about section  -->
-
-    <h2>About Me</h2>  
-      <p>Although I'm just now starting my formal education in software engineering, I have been learning how to code for the past two years. I'm excited to continue to learn through Thinkful's Engineering Immersion program and meet others in my cohort who share my passion for coding!</p> 
-      <p>My end goal is to become a game designer but am currently just enjoying developing and expanding my skills as a developer.</p>
-      <p>As an aspiring game designer, some of my favorite games from the past year have been:</p>
-      <ol>
-        <li>Outer Wilds</li>
-        <li>Hollow Knight</li>
-        <li>Terraria</li>
-        <li>Enter the Gungeon</li>
-      </ol>
+        <h2>About Me</h2> 
+        <section id="about"></section> 
+          <p>Although I'm just now starting my formal education in software engineering, I have been learning how to code for the past two years. I'm excited to continue to learn through Thinkful's Engineering Immersion program and meet/collaborate with others who share my passion for coding! My end goal is to become a game designer but am currently just enjoying developing and expanding my skills as a developer.</p>
+          <p>As an aspiring game designer, some of my favorite games from the past year have been:</p>
+          <ul>
+            <li>Outer Wilds</li>
+            <li>Hollow Knight</li>
+            <li>Terraria</li>
+            <li>Enter the Gungeon</li>
+          </ul>
+    <hr>
+    <!-- Placeholder for any future projects-->
+        <h2>Projects</h2>
+        <section id="projects"></section>
+          <img src="shrug.jpg" alt="Shrug" class="center">
+          <h4>Project #0</h4>
+          <p>I don't have any projects prepared to display yet, but don't fret! This section will be full soon! Check back later!</p>
+          <a href="">Project Link</a>
 
     <hr>
 
     <!-- Links to contact me at my linkedin and github-->
-
-    <h2>Contact Griffin</h2>
-      <a href="https://www.linkedin.com/in/griffin-braid-006b22ba/">Linkedin Page</a>
-      <p></p>
-      <a href="https://github.com/devgriffinb">Github Page</a>
+        <h2>Contact Griffin</h2>
+        <section id="contact"></section>
+          <p>Email: griffinbraid@gmail.com</p>
+          <a href="https://www.linkedin.com/in/griffin-braid-006b22ba/">Linkedin Page</a>
+          <p></p>
+          <a href="https://github.com/devgriffinb">Github Page</a>
+          <form action="https://formspree.io/f/xvovkknk" method="POST">
+            <label for="sender">Name: </label>
+            <input id="sender" type="text" name="name" placeholder="Your Name Here">
+            <label for="email">Email Address: </label>
+            <input id="email" type="email" name="_replyto" placeholder="Your Email Here">
+            <label for="message">Message: </label>
+            <input id="message" type="text" name="message" placeholder="Your Message Here">
+            <p></p>
+            <input type="submit" value="Send">
+          </form>
   </article>
 
   <hr>
